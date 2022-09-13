@@ -7,7 +7,7 @@
 
 ```bash
 conda create -n lama python=3.7 -y
-conda activate focal
+conda activate lama
 ```
 
 - Install `CUDA==10.1` with `cudnn7` following
@@ -105,7 +105,7 @@ python -m torch.distributed.launch --nproc_per_node <num-of-gpus-to-use> --maste
 
 For example, to train `ffc_base` with 8 GPU on a single node for 300 epochs, run:
 
-`Focal-Tiny`:
+`ffc_base`:
 
 ```bash
 python -m torch.distributed.launch --nproc_per_node 8 --master_port 12345  main.py \
