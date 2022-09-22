@@ -1,0 +1,4 @@
+MODEL:
+  TYPE: ffc_base
+  NAME: FFCResNetGenerator
+  BLOCK: 18
